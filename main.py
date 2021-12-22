@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    return "<h1>Main</h1>"
+    return "<h2>Main</h2>"
 
 @app.route('/awards')
 def awards():    
